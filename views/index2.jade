@@ -1,0 +1,40 @@
+extends ./layout/layout
+block content
+     br
+     br
+     br
+     br      
+     div(class="container")
+       div(class="card bg-dark text-white")
+        div(class="card-header") Formulario Alumno
+        div(class="card-body")
+          form(required method="POST" action="/api/alumno" id="form-datos" enctype="multipart/form-data")
+           div(class="row")
+             div(class="col-md-5 col-md-offset-1")
+               label(for="matricula") &nbsp;Matricula:&nbsp;
+               input(type="text" name="matricula" id="matricula" class="text-color" required)
+               br
+               br
+               label(for="nombre") &nbsp;&nbsp;&nbsp;Nombre:&nbsp;
+               input(type="text" name="nombre" class="text-color" id="nombre"  required)
+               br
+               br
+               label(for="apellidos") &nbsp;Apellidos:&nbsp;
+               input(type="text" name="apellidos" class="text-color" id="apellidos"  required)
+               br
+               br
+               label(for="semestre") Semestre:&nbsp;
+               input(type="text" name="semestre" class="text-color" id="semestre"  required)
+               br
+               br
+               label(for="grupo") &nbsp;&nbsp;&nbsp;&nbsp;Grupo:&nbsp;
+               input(type="text" class="text-color" name="grupo" id="grupo"  required)
+               br
+               br
+               input(type="file" id="img" name="img" required)
+               br
+               br
+               button(class="btn btn-success btn-xs glyphicon glyphicon-save" id="sendd") Enviar
+
+             div(class="col-md-1 col-md-offset-1")
+               img(id="image" src="imagen/page/user_image.jpg" class="img-rounded" height="350px" name="image")

@@ -1,0 +1,78 @@
+body{
+background: url('/img/image2.png');
+background-repeat:no-repeat; 
+background-size: cover;
+background-attachment:fixed;
+font-family: helvetica,arial,sans-serif;
+line-height: 20px;
+}
+
+
+#sendTo{
+	color: black;
+}
+
+#pr{
+	
+}
+
+.text-color{
+color:black;
+}
+
+#here{
+height: 315px;
+border: 1px solid #ccc;
+	overflow-y: scroll;
+overflow-x: scroll;
+
+
+
+
+}
+
+.set{
+padding: 10px;
+margin: 20px 0;
+color: #fff;
+box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.25);
+
+background: white;
+
+}
+
+.altura{
+	margin-top: 40px;
+color:	#6303b7;
+}
+#users{
+	color: black;
+}
+
+#msj{
+
+		color:black;
+width: 270px;
+}
+
+#raya{
+	margin: 2px;
+}
+
+#technicolor{
+	color: black;
+border-radius: 80px 20px;
+
+padding: 1px;
+margin-bottom: 2px;
+
+background: #5cb85c; /*color del boton success*/
+
+
+}
+
+
+#send{
+width: 270px;
+
+}
